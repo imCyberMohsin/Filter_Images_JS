@@ -10,11 +10,12 @@
     --accent_color: #c40000;
 }
 
-body{
+body {
     width: 100%;
-    height: 100vh;
+    height: 130vh;
     background-color: #000000;
     background-image: linear-gradient(315deg, #000000 0%, #414141 74%);
+    background-size: cover;
 }
 
 .container {
@@ -52,7 +53,7 @@ body{
     transition: all 0.2s ease-in-out;
 }
 
-.container .Nav-Buttons .btn:focus{
+.container .Nav-Buttons .btn:focus {
     background-color: var(--accent_color);
     color: white;
     transform: scale(1.1);
@@ -83,7 +84,7 @@ body{
     cursor: pointer;
 }
 
-.image-row img:hover{
+.image-row img:hover {
     box-shadow: none;
     transform: scale(1.02);
 }
